@@ -15,8 +15,7 @@ const firebaseConfig = {
   storageBucket: 'lista-de-series-30049.appspot.com',
   messagingSenderId: '239523517163',
   appId: '1:239523517163:web:976a783cf41e5c2e76e4ae'
-};
+}
 
 const firebaseapp = firebase.initializeApp(firebaseConfig)
 export const db = firebaseapp.firestore()
-
