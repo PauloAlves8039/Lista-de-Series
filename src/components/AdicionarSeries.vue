@@ -1,7 +1,7 @@
 <template>
   <div class="row justify-content-center">
     <div class="col-md-5">
-      <h3 id="titulo-adicionar" class="text-center">Adicionar Série</h3>
+      <h2 id="titulo-adicionar" class="text-center">Adicionar Série</h2>
 
       <b-alert
         :show="dismissCountDown"
@@ -98,7 +98,7 @@ export default {
     },
 
     /**
-     * Limpa o campo dos campos.
+     * Realiza a limpeza dos campos do formulário.
      * @function
      * @name limparCampos
      */

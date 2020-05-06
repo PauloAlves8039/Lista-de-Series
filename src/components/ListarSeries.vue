@@ -1,7 +1,7 @@
 <template>
   <div class="row">
     <div class="col-md-12">
-      <h3 id="titulo-lista" class="text-center">Lista de Séries</h3>
+      <h2 id="titulo-lista" class="text-center">Lista de Séries</h2>
 
       <b-alert
           :show="dismissCountDown"
@@ -18,7 +18,7 @@
         <button class="badge-pill btn btn-outline-dark ml-2" @click="limparCampoPesquisa">Cancelar</button>
       </div>
 
-      <table id="tabela-series" class="table table-light table-bordered table-hover">
+      <table id="tabela-series" class="table table-light table-bordered table-hover text-center">
         <thead>
           <tr class="thead-dark">
             <th>Título</th>
@@ -33,8 +33,8 @@
             <td>{{ serie.genero }}</td>
             <td>{{ serie.temporadas }}</td>
             <td>
-              <router-link :to="{name: 'editar', params: { id: serie.key }}" class="badge-pill btn btn-primary">Editar</router-link>
-              <button @click.prevent="excluirSerie(serie.key)" class="badge-pill btn btn-danger">Excluir</button>
+              <router-link :to="{name: 'editar', params: { id: serie.key }}" class="badge-pill btn btn-primary mx-1">Editar</router-link>
+              <b-button class="btn-md mx-1" pill variant="danger" @click.prevent="excluirSerie(serie.key)">Excluir</b-button>
             </td>
           </tr>
         </tbody>
@@ -87,6 +87,11 @@ export default {
   },
 
   methods: {
+    /**
+     * Efetua a exclusão de série por id.
+     * @function
+     * @name excluirSerie
+     */
     excluirSerie (id) {
       if (window.confirm('Você deseja confirmar a exclusão?')) {
         db.collection('series')
