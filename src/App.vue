@@ -11,7 +11,7 @@
             <router-link class="nav-link pr-3" to="/listar">Lista de Séries</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/About">Sobre</router-link>
+            <router-link class="nav-link" pr-3 to="/About">Sobre</router-link>
           </li>
         </ul>
       </div>
