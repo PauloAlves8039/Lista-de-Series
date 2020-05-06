@@ -9,6 +9,7 @@
 
 ## :computer: Projeto
 Repositório de uma aplicação web para catalogar uma lista de séries preferidas usando Vue CLI e Firebase com Cloud Firestore.  
+
 É posivel realizar operações para manipulação dos registros usando recursos para adição, pesquisa, atualização e exclusão das séries. 
 
 ## :wrench: Recursos Utilizados
@@ -34,10 +35,10 @@ Baixar repositório ```git clone https://github.com/PauloAlves8039/Lista-de-Seri
 ### Tela com a lista de séries cadastradas
 ![screenshot2](https://github.com/PauloAlves8039/Lista-de-Series/blob/master/src/assets/images/screenshot2.png)
 
-### Tela para edição de séries
+### Tela para edição de série
 ![screenshot3](https://github.com/PauloAlves8039/Lista-de-Series/blob/master/src/assets/images/screenshot3.png)
 
-### Tela sobre informações so projeto
+### Tela de informações do projeto
 ![screenshot4](https://github.com/PauloAlves8039/Lista-de-Series/blob/master/src/assets/images/screenshot4.png)
 
 ## Author
