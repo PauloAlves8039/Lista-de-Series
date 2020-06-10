@@ -20,7 +20,7 @@ Repositório de uma aplicação web para catalogar uma lista de séries preferid
 - [Node.Js v12.16.2](https://nodejs.org/en/).
 - [Eslint v6.7.2](https://eslint.org/blog/2019/11/eslint-v6.7.2-released).
 - [Firebase v7.14.2](https://firebase.google.com/).
-- [Imagens](https://www.pexels.com/pt-br/).
+- [Pexels](https://www.pexels.com/pt-br/).
 
 ## :floppy_disk: Instalação
 Baixar repositório ```git clone https://github.com/PauloAlves8039/Lista-de-Series.git```
