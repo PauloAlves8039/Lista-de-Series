@@ -41,5 +41,9 @@ Baixar repositório ```git clone https://github.com/PauloAlves8039/Lista-de-Seri
 ### Tela de informações do projeto
 ![screenshot4](https://github.com/PauloAlves8039/Lista-de-Series/blob/master/src/assets/images/screenshot4.png)
 
+## :pencil: Licença
+Esse projeto está sob a licença [MIT](https://github.com/PauloAlves8039/Lista-de-Series/blob/master/LICENSE.md)
+
+
 ## Author
 :boy: [Paulo Alves](https://github.com/PauloAlves8039)
